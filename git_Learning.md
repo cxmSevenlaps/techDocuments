@@ -45,8 +45,10 @@ and the repository exists.
 - bug/特性都可以拉出独立的分支，适合多人写作
 
 ###标签管理
-
-##搭建git服务器
+##自定义git(进阶内容)
+###配置别名（可以不需要）
+###.gitignore文件
+###搭建git服务器
 
 
 
