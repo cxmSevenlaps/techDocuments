@@ -12,3 +12,6 @@
 - git reset --hard 3628164  3628164指的是commit id
 - 工作区、版本库、暂存区、master的区别
 - git checkout -- file
+- git rm+git commit:两部操作删除文件
+- git rm+git checkout -- 需要恢复的文件名 
+- 
