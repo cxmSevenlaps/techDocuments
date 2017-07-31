@@ -10,3 +10,5 @@
 - git reset 版本回退
 - git reset --hard HEAD^  回退到上一个版本。上一个版本就是HEAD^，上上一个版本就是HEAD^^，当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100。
 - git reset --hard 3628164  3628164指的是commit id
+- 工作区、版本库、暂存区、master的区别
+- git checkout -- file
