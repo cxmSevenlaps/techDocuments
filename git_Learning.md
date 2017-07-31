@@ -30,11 +30,25 @@ and the repository exists.
 
 
 ##分支管理
+###创建分支
 - git checkout -b dev 相当于git branch dev加上git checkout dev
 - git branch
 - git checkout master
 - git merge dev
-- git branch -d dev
+- git branch -d dev  
+
+###解决冲突
+- git log --graph --pretty=oneline --abbrev-commit   查看分支的合并情况
+
+###分支策略
+- git merge --no-ff -m "merge with no-ff" dev  禁用Fast forward模式，保留开发者自己的分支
+- bug/特性都可以拉出独立的分支，适合多人写作
+
+###标签管理
+
+##搭建git服务器
+
+
 
 
 
