@@ -14,4 +14,8 @@
 - git checkout -- file
 - git rm+git commit:两部操作删除文件
 - git rm+git checkout -- 需要恢复的文件名 
-- 
+
+##github
+- ssh-keygen -t rsa -C "youremail@example.com"    创建SSH Key
+- Create repository  添加远程库
+- git remote add origin git@github.com:michaelliao/learngit.git   其中，michaelliao替换成你自己的GitHub账户名，否则，你在本地关联的就是我的远程库，关联没有问题，但是你以后推送是推不上去的，因为你的SSH Key公钥不在我的账户列表中
