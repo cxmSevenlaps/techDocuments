@@ -30,4 +30,11 @@ and the repository exists.
 
 
 ##分支管理
+- git checkout -b dev 相当于git branch dev加上git checkout dev
+- git branch
+- git checkout master
+- git merge dev
+- git branch -d dev
+
+
 
